@@ -1,6 +1,10 @@
 // import the library (must be located in the Arduino/libraries directory)
 #include <CapacitiveSensor.h>
 
+// program is based on project 13 with hardware modifications. It's using a piezo (speaker) instead of led light
+// The program will logg all the sensor inputs into an array and when it's filled MAX_SIZE it replays the recording to the user
+// for infinity.
+
 // MAX_SIZE is the Array's maximum size
 #define MAX_SIZE 50
 

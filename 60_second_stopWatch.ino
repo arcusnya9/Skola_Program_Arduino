@@ -1,6 +1,13 @@
 // Import library/header files for ezButton so that we can use it later in the program.
 #include <ezButton.h>
 
+
+// Program is a modification of project 8 digital hourglass and has now become a 60 second stopwatch with an added green
+// LED that blinks to user specification and instead of the tilt switch a real switch has been added
+// that starts counting when the button is pressed and held for 50ms with the help of the ezButton Library.
+// red led lights will also blink red while it's counting to 10 and when it has reached 10 it becomes non blinking and just
+// becomes red until the end when the green LED will blink.
+
 // named constant for the switch pin
 const int switchPin = 13;
 

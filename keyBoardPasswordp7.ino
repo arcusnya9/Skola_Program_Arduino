@@ -6,7 +6,7 @@ void setup() {
 /*
 * This Is a password app 
 * Where you type a password and if your correct you get a secret reward and if you fail you get an alarm
-* 
+* It's based on project 7.
 * Button Closest to the piezo Is enter. Next one is 3,2,1
 */
 
